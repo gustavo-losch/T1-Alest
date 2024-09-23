@@ -1,6 +1,6 @@
 public class Algoritmo4 {
     public static void main(String[] args) {
-        for(long i = 0; i<100; ++i){
+        for(long i = 0; i<58; ++i){
             System.out.println(i+" "+f(i));
         }
     }

@@ -1,23 +1,22 @@
-import java.lang.Math;
-public class Algoritmo3 {
+public class Algoritmo2 {
     public static void main(String[] args){
-        for(int i = 0; i<100; ++i){
+        for(int i = 0; i<500; ++i){
             System.out.println(i+" "+f(i));
         }
     }
-    
+
     public static int f( int n ) {
         int i, j, k, res = 0;
         int cont_op = 0;
-        for( i = 1; i <= n*n; i += 2 ){
-            for( j = i/2; j <= 2*i; j += i/2+1 ) {
-                for( k = j+1; k <= n+j; k += k/2+1 ) {
-                    res = res + Math.abs(j-i);
+        for( i = n; i <= n; i += i/2+1 ) {
+            for( j = i/2; j <= i*i; j += i+1 ) {
+                for( k = n; k <= 2*n; k += i+1 ) {
+                    res = res + n;
                     cont_op++;
                 }
             }
         }
         return cont_op;
     }
-        
+
 }

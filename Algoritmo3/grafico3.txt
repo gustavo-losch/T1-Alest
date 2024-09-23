@@ -1,0 +1,10 @@
+reset
+
+set term png
+set output 'grafico3.png'
+
+set grid
+set datafile separator ' '
+set xrange [0:1000]
+
+plot 'dados.txt' using ($1):($2)
