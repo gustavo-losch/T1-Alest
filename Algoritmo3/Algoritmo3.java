@@ -1,11 +1,10 @@
 import java.lang.Math;
 public class Algoritmo3 {
     public static void main(String[] args){
-        for(int i = 0; i<1000; ++i){
+        for(int i = 0; i<1000; i = i + 15){
             System.out.println(i+" "+f(i));
         }
     }
-    
     public static int f( int n ) {
         int i, j, k, res = 0;
         int cont_op = 0;
@@ -18,6 +17,5 @@ public class Algoritmo3 {
             }
         }
         return cont_op;
-    }
-        
+    }   
 }

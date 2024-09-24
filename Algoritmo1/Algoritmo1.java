@@ -1,7 +1,7 @@
 public class Algoritmo1 {
     public static void main( String[] args){    
 
-        for(int i = 0; i<429; i++){
+        for(int i = 0; i<429; i = i + 15){
             System.out.println(i+" "+f(i));
         }
         

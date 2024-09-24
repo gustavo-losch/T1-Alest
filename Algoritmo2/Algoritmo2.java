@@ -1,10 +1,9 @@
 public class Algoritmo2 {
     public static void main(String[] args){
-        for(int i = 0; i<500; ++i){
+        for(int i = 0; i<500; i = i + 15){
             System.out.println(i+" "+f(i));
         }
     }
-
     public static int f( int n ) {
         int i, j, k, res = 0;
         int cont_op = 0;
@@ -18,5 +17,4 @@ public class Algoritmo2 {
         }
         return cont_op;
     }
-
 }

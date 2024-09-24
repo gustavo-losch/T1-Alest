@@ -1,10 +1,9 @@
 public class Algoritmo5 {
     public static void main(String[] args) {
-        for(int i =0; i<230; ++i){
+        for(int i =0; i<240; i = i + 15){
             System.out.println(i+" "+f(i));
         }
     }
-    
     public static int f( int n ) {
         int i, j, k, res = 0;
         int cont_op = 0;

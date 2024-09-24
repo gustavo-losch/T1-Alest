@@ -1,11 +1,9 @@
 public class Algoritmo4 {
     public static void main(String[] args) {
-        for(long i = 0; i<58; ++i){
+        for(long i = 0; i<; i = i + 1){
             System.out.println(i+" "+f(i));
         }
     }
-
-
     public static int f( long n ) {
         long i, j, k, res = 0;
         int cont_op = 0;
